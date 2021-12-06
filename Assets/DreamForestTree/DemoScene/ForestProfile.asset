@@ -1,0 +1,596 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8388308950085913219
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d3749df0a63fd4e8c14d9a12050488, type: 3}
+  m_Name: PPVignette
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  color:
+    m_overrideState: 0
+    m_value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  center:
+    m_overrideState: 0
+    m_value: {x: 0.5, y: 0.5}
+  intensity:
+    m_overrideState: 1
+    m_value: 0.425
+    min: 0
+    max: 1
+  smoothness:
+    m_overrideState: 1
+    m_value: 0.354
+    min: 0.01
+    max: 1
+  rounded:
+    m_overrideState: 0
+    m_value: 0
+--- !u!114 &-6590811743536065742
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a4cce819a099244a8cb5bd57d9cf91, type: 3}
+  m_Name: PPMotionBlur
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  quality:
+    m_overrideState: 0
+    m_value: 0
+  intensity:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+    max: 1
+  clamp:
+    m_overrideState: 0
+    m_value: 0.05
+    min: 0
+    max: 0.2
+--- !u!114 &-5219904066596220337
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a4cce819a099244a8cb5bd57d9cf91, type: 3}
+  m_Name: PPMotionBlur
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  quality:
+    m_overrideState: 0
+    m_value: 0
+  intensity:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+    max: 1
+  clamp:
+    m_overrideState: 0
+    m_value: 0.05
+    min: 0
+    max: 0.2
+--- !u!114 &-3504854199383578353
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faab2cbe5293ef43be91ac6adb00eb1, type: 3}
+  m_Name: PPChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  intensity:
+    m_overrideState: 1
+    m_value: 0.218
+    min: 0
+    max: 1
+  center:
+    m_overrideState: 0
+    m_value: {x: 0.5, y: 0.5}
+--- !u!114 &-2391266643389000235
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37d3cf263155a04895d22205f084c4e, type: 3}
+  m_Name: PPFog
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  EnableFog:
+    m_overrideState: 1
+    m_value: 1
+  Mode:
+    m_overrideState: 1
+    m_value: 2
+  Density:
+    m_overrideState: 1
+    m_value: 0.32
+    min: 0
+    max: 5
+  Start:
+    m_overrideState: 0
+    m_value: 0
+  End:
+    m_overrideState: 0
+    m_value: 200
+  FogColor:
+    m_overrideState: 1
+    m_value: {r: 0.8066038, g: 1, b: 0.9432299, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  IncludeSkybox:
+    m_overrideState: 1
+    m_value: 0.886
+    min: 0
+    max: 1
+--- !u!114 &-1942337403396887339
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80e218215aa4494794a749061aafb65, type: 3}
+  m_Name: PPDepthOfField
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  mode:
+    m_overrideState: 1
+    m_value: 1
+  gaussianFarEnd:
+    m_overrideState: 1
+    m_value: 300
+    min: 0
+  gaussianFarStart:
+    m_overrideState: 1
+    m_value: 100
+    min: 0
+  gaussianNearStart:
+    m_overrideState: 1
+    m_value: 15
+    min: 0
+  gaussianNearEnd:
+    m_overrideState: 1
+    m_value: 0
+    min: -100
+  gaussianMaxRadius:
+    m_overrideState: 1
+    m_value: 1
+    min: 0.5
+    max: 2
+  highQualitySampling:
+    m_overrideState: 0
+    m_value: 0
+  focusDistance:
+    m_overrideState: 0
+    m_value: 10
+    min: 0.1
+  aperture:
+    m_overrideState: 0
+    m_value: 5.6
+    min: 1
+    max: 32
+  focalLength:
+    m_overrideState: 0
+    m_value: 50
+    min: 1
+    max: 300
+  bladeCount:
+    m_overrideState: 0
+    m_value: 5
+    min: 3
+    max: 9
+  bladeCurvature:
+    m_overrideState: 0
+    m_value: 1
+    min: 0
+    max: 1
+  bladeRotation:
+    m_overrideState: 0
+    m_value: 0
+    min: -180
+    max: 180
+--- !u!114 &-1766736238929229779
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691f34663ec6b5147a310c46f12b2087, type: 3}
+  m_Name: PPShadowsMidtonesHighlights
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  shadows:
+    m_overrideState: 1
+    m_value: {x: 0.7476119, y: 0.9313735, z: 1, w: -0.07541657}
+  midtones:
+    m_overrideState: 1
+    m_value: {x: 1, y: 0.89916664, z: 0.7419016, w: 2.7279e-10}
+  highlights:
+    m_overrideState: 0
+    m_value: {x: 1, y: 1, z: 1, w: 0}
+  shadowsStart:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+  shadowsEnd:
+    m_overrideState: 0
+    m_value: 0.3
+    min: 0
+  highlightsStart:
+    m_overrideState: 0
+    m_value: 0.55
+    min: 0
+  highlightsEnd:
+    m_overrideState: 0
+    m_value: 1
+    min: 0
+--- !u!114 &-1019468333690871653
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9837d3e95e09434390d563f6f90efcf, type: 3}
+  m_Name: PPHBAOComponent
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  pipelineStage:
+    m_overrideState: 1
+    m_value: 0
+  quality:
+    m_overrideState: 0
+    m_value: 2
+  deinterleaving:
+    m_overrideState: 0
+    m_value: 0
+  resolution:
+    m_overrideState: 0
+    m_value: 0
+  noiseType:
+    m_overrideState: 0
+    m_value: 0
+  radius:
+    m_overrideState: 0
+    m_value: 1
+    min: 0.25
+    max: 5
+  maxRadiusPixels:
+    m_overrideState: 0
+    m_value: 32
+    min: 16
+    max: 256
+  bias:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+    max: 0.5
+  intensity:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+    max: 4
+  useMultiBounce:
+    m_overrideState: 0
+    m_value: 0
+  multiBounceInfluence:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+    max: 1
+  offscreenSamplesContribution:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+    max: 1
+  maxDistance:
+    m_overrideState: 0
+    m_value: 150
+    min: 0
+  distanceFalloff:
+    m_overrideState: 0
+    m_value: 50
+    min: 0
+  perPixelNormals:
+    m_overrideState: 0
+    m_value: 1
+  baseColor:
+    m_overrideState: 0
+    m_value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  TFenabled:
+    m_overrideState: 0
+    m_value: 0
+  varianceClipping:
+    m_overrideState: 0
+    m_value: 1
+  blurType:
+    m_overrideState: 0
+    m_value: 2
+  sharpness:
+    m_overrideState: 0
+    m_value: 8
+    min: 0
+    max: 16
+  colorBleedingEnabled:
+    m_overrideState: 0
+    m_value: 0
+  saturation:
+    m_overrideState: 0
+    m_value: 1
+    min: 0
+    max: 4
+  albedoMultiplier:
+    m_overrideState: 0
+    m_value: 25.5
+    min: 0
+    max: 32
+  brightnessMask:
+    m_overrideState: 0
+    m_value: 1
+    min: 0
+    max: 1
+  brightnessMaskRange:
+    m_overrideState: 0
+    m_value: 0.5
+    min: 0.5
+    max: 2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 955e0ab0263bb0145b2c59c3e6936e5f, type: 3}
+  m_Name: ForestProfile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 3572391691548026823}
+  - {fileID: -1942337403396887339}
+  - {fileID: -8388308950085913219}
+  - {fileID: -2391266643389000235}
+  - {fileID: -3504854199383578353}
+  - {fileID: -1766736238929229779}
+  isDirty: 0
+--- !u!114 &751832878078863370
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9837d3e95e09434390d563f6f90efcf, type: 3}
+  m_Name: PPHBAO
+  m_EditorClassIdentifier: 
+  active: 0
+  PreActive: 0
+  pipelineStage:
+    m_overrideState: 1
+    m_value: 0
+  quality:
+    m_overrideState: 0
+    m_value: 2
+  deinterleaving:
+    m_overrideState: 0
+    m_value: 0
+  resolution:
+    m_overrideState: 0
+    m_value: 0
+  noiseType:
+    m_overrideState: 0
+    m_value: 0
+  radius:
+    m_overrideState: 1
+    m_value: 0.36
+    min: 0.25
+    max: 5
+  maxRadiusPixels:
+    m_overrideState: 1
+    m_value: 66
+    min: 16
+    max: 256
+  bias:
+    m_overrideState: 1
+    m_value: 0.116
+    min: 0
+    max: 0.5
+  intensity:
+    m_overrideState: 1
+    m_value: 1.89
+    min: 0
+    max: 4
+  useMultiBounce:
+    m_overrideState: 0
+    m_value: 0
+  multiBounceInfluence:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+    max: 1
+  offscreenSamplesContribution:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+    max: 1
+  maxDistance:
+    m_overrideState: 0
+    m_value: 150
+    min: 0
+  distanceFalloff:
+    m_overrideState: 0
+    m_value: 50
+    min: 0
+  perPixelNormals:
+    m_overrideState: 0
+    m_value: 1
+  baseColor:
+    m_overrideState: 0
+    m_value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  TFenabled:
+    m_overrideState: 0
+    m_value: 0
+  varianceClipping:
+    m_overrideState: 0
+    m_value: 1
+  blurType:
+    m_overrideState: 0
+    m_value: 2
+  sharpness:
+    m_overrideState: 0
+    m_value: 8
+    min: 0
+    max: 16
+  colorBleedingEnabled:
+    m_overrideState: 1
+    m_value: 1
+  saturation:
+    m_overrideState: 1
+    m_value: 4
+    min: 0
+    max: 4
+  albedoMultiplier:
+    m_overrideState: 0
+    m_value: 4
+    min: 0
+    max: 32
+  brightnessMask:
+    m_overrideState: 1
+    m_value: 1
+    min: 0
+    max: 1
+  brightnessMaskRange:
+    m_overrideState: 1
+    m_value: 0.5
+    min: 0.5
+    max: 2
+--- !u!114 &3400697208775759200
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a4cce819a099244a8cb5bd57d9cf91, type: 3}
+  m_Name: PPMotionBlur
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  quality:
+    m_overrideState: 0
+    m_value: 0
+  intensity:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
+    max: 1
+  clamp:
+    m_overrideState: 0
+    m_value: 0.05
+    min: 0
+    max: 0.2
+--- !u!114 &3572391691548026823
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16fe911ba9cdf814facf42289462b861, type: 3}
+  m_Name: PPBloom
+  m_EditorClassIdentifier: 
+  active: 1
+  PreActive: 1
+  threshold:
+    m_overrideState: 1
+    m_value: 0.6
+    min: 0
+  intensity:
+    m_overrideState: 1
+    m_value: 1.44
+    min: 0
+  scatter:
+    m_overrideState: 1
+    m_value: 0.695
+    min: 0
+    max: 1
+  clamp:
+    m_overrideState: 0
+    m_value: 65472
+    min: 0
+  tint:
+    m_overrideState: 1
+    m_value: {r: 0.5896226, g: 0.83240086, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  highQualityFiltering:
+    m_overrideState: 0
+    m_value: 0
+  skipIterations:
+    m_overrideState: 0
+    m_value: 1
+    min: 0
+    max: 16
+  dirtTexture:
+    m_overrideState: 0
+    m_value: {fileID: 0}
+  dirtIntensity:
+    m_overrideState: 0
+    m_value: 0
+    min: 0
